@@ -19,9 +19,71 @@
     background-color: yellow;
     padding: 80px;
     margin: 10px;
-
+}
+.direita{
+    height:515px;
 }
 
-.esticar {
-    padding-right: 279px;
+.cima{
+    padding:60px 160px;
 }
+
+.baixo{
+    padding:160px 80px;
+}
+
+.baixinho{
+    padding:160px 80px;
+}
+
+.alto{
+    padding: 60px 75px;
+}
+
+.direita2 {
+    height: 565px;
+}
+
+.coluna-esquerda-invisivel {
+    display: flex;
+    flex-direction: column; 
+    flex: 2;             
+    gap: 20px;
+}
+
+.linha-topo-invisivel {
+    display: flex;
+    flex: 1;              
+    gap: 20px;
+}
+
+.linha-topo-invisivel .amarelo {
+    flex: 1;              
+}
+
+
+.bloco-4 {
+    flex: 4;
+    padding:   200px;        
+}
+
+
+.bloco-3 {
+    flex: 1; 
+    width: 10px;             
+}
+
+.esticar{
+    padding-right: 270px;
+}
+
+.alongar{
+    padding-bottom: 270px;
+}
+ .vert{
+    padding-top: 270px;
+ }
+ 
+ .alongar-11{
+    padding-top: 480px;
+ }
